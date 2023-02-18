@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin: 5px;
+}
+.navbar {
+    margin-right: 80px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLink {
+    margin: 5px;
+    padding: 5px;
+    color: #3c3c3c;
+    text-decoration: none;
+}
+.btnToggle {
+    margin: 0 20px;
+}
