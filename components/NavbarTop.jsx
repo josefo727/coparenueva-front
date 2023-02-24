@@ -1,7 +1,9 @@
 import styles from '/styles/Navbar.module.css'
 import {Navbar, Link, Text, Dropdown, User} from "@nextui-org/react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import React from "react";
 
-export default function NavbarTop() {
+export default function NavbarTop({navTitle, navSubTitle, toggle}) {
     const collapseItems = [
         "Features",
         "Customers",
@@ -14,18 +16,25 @@ export default function NavbarTop() {
         "Sign Up",
     ];
     const userDropdown = [
-        { key: "new", name: "New File" },
-        { key: "copy", name: "Copy Link" },
-        { key: "edit", name: "Edit File" },
-        { key: "delete", name: "Delete File" },
+        { key: "logout", name: "Logout" }
     ];
     return (
-        <Navbar isBordered variant='sticky' className={styles.fixed}>
+        <Navbar isBordered variant='sticky' className={styles.navbar}>
             <Navbar.Brand>
-                <Navbar.Toggle aria-label="toggle navigation" className={styles.btnToggle} showIn="xs"/>
-                <Text b color="inherit">
-                    Casos Especiales
-                </Text>
+                <a className={`showMobile ${styles.hamburger}`} onClick={() => toggle()}>
+                    <GiHamburgerMenu/>
+                </a>
+                {navSubTitle ?
+                    <div className={styles.contentTitle}>
+                        <p className={styles.navTitle}>{navTitle}</p>
+                        <p className={styles.navSubTitle}>{navSubTitle}</p>
+                    </div>
+                :
+                    <Text b color="inherit" className={styles.navTitle}>
+                        {navTitle}
+                    </Text>
+
+                }
             </Navbar.Brand>
 
             <Navbar.Content enableCursorHighlight variant="underline">
@@ -51,20 +60,6 @@ export default function NavbarTop() {
                     </Dropdown.Menu>
                 </Dropdown>
             </Navbar.Content>
-
-            <Navbar.Collapse>
-                {collapseItems.map((item, index) => (
-                    <Navbar.CollapseItem key={item}>
-                        <Link
-                            color="inherit"
-                            css={{minWidth: "100%"}}
-                            href="#"
-                        >
-                            {item}
-                        </Link>
-                    </Navbar.CollapseItem>
-                ))}
-            </Navbar.Collapse>
         </Navbar>
     )
 }

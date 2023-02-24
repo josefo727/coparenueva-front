@@ -1,27 +1,17 @@
 import Head from "next/head";
-import Sidebar from "/components/Sidebar";
-import NavbarTop from "./NavbarTop";
+import Sidebars from './Sidebars'
 import styles from '/styles/Layout.module.css'
+import { ProSidebarProvider } from "react-pro-sidebar";
 
-export default function Layout({children, title, description}) {
+export default function Layout({children, title, description, navTitle, navSubTitle, ruta}) {
     return (
-        <>
+        <ProSidebarProvider>
             <Head>
                 <title>{title}</title>
                 <meta name="Description" content={description}/>
             </Head>
-            <section className={styles.container}>
-                <Sidebar/>
-                <div  className={styles.main}>
-                    <NavbarTop/>
-                    <main>
-                        <footer>Footer</footer>
-                        {children}
-                        <footer>Footer</footer>
-                    </main>
-                </div>
-            </section>
-        </>
+            <Sidebars navTitle={navTitle} navSubTitle={navSubTitle} ruta={ruta} children={children}/>
+        </ProSidebarProvider>
     )
 }
 Layout.defaultProps = {

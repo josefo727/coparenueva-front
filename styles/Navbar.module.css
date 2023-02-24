@@ -1,3 +1,6 @@
+.navbar {
+    --nextui--navbarBorderColor: none
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -21,4 +24,29 @@
 }
 .btnToggle {
     margin: 0 20px;
+}
+.contentTitle {
+    display: flex;
+    flex-direction: column;
+}
+.hamburger {
+    margin: 10px;
+    font-size: 30px;
+}
+.navTitle {
+    margin: 5px 0 0 35px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navSubTitle{
+    margin: 5px 0 0 35px;
+    color: #aeadad;
+    font-size: 18px;
+    width: 30px;
+}
+@media (max-width: 1024px) {
+    .navSubTitle{
+        display: none;
+    }
 }

@@ -1,0 +1,45 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 350px;
+    padding: 30px;
+    background: #ffffff;
+    font-family: sans-serif;
+    color: #202123;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.form ::placeholder {
+    color: #202123;
+    font-weight: bold;
+}
+.user label, .password label{
+    border-radius: 0;
+    box-shadow: 0 0 0 2px #a5a5a5
+}
+.form h1{
+    margin: auto;
+}
+.form p {
+    margin: 10px auto 25px;
+}
+.LoginButton {
+    display: flex;
+    color: #ffffff;
+    background: #344693;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.LoginButton:hover {
+    background: #120639;
+    transition: 0.5s;
+}
+
+.linkLoginRegister {
+    display: flex;
+    flex-direction: row-reverse;
+}

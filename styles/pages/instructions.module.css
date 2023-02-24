@@ -1,0 +1,36 @@
+.containerInstructions {
+    height: calc(100vh - 76px);
+    overflow: auto;
+    padding: 0 20px;
+    background: #f3f3f3;
+}
+.instructions {
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 23px 50px;
+    background: #ffffff;
+    border-radius: 21px;
+}
+.downloadLink {
+    color: #ffffff;
+    background: #344693;
+    font: 600 15px sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 35px;
+    border-radius: 30px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .instructions {
+        padding: 20px;
+    }
+    .downloadLink {
+        width: 100%;
+    }
+}
