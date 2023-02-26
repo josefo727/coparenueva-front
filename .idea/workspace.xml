@@ -5,35 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9794cd7-f039-41aa-baa2-28a04316073f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Forms/FormLoginRegister.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Forms/FormRegisterRenovators.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Sidebars.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/casos-especiales/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/instrucciones/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/mi-equipo/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/register.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resumen/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/terminos-y-condiciones/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/FormLoginRegister.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/FormRegisterRenovators.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/LoginRegister.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/pages/MyTeam.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/pages/Resumen.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/pages/TermsAndConditions.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/pages/instructions.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Forms/FormSpecialCases.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/FormSpecialCases.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/pages/SpecialCases.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NavbarTop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavbarTop.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Forms/FormLoginRegister.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Forms/FormLoginRegister.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Forms/FormRegisterRenovators.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Forms/FormRegisterRenovators.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebars.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebars.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/casos-especiales/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/casos-especiales/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mi-equipo/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mi-equipo/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resumen/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resumen/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/terminos-y-condiciones/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/terminos-y-condiciones/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/FormLoginRegister.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/FormLoginRegister.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/FormRegisterRenovators.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/FormRegisterRenovators.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Sidebar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/MyTeam.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/MyTeam.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/Resumen.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/Resumen.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/TermsAndConditions.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/TermsAndConditions.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +41,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pages/casos-especiales/index.jsx" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,6 +94,8 @@
       <workItem from="1676751486141" duration="9785000" />
       <workItem from="1676837040342" duration="8681000" />
       <workItem from="1676898741857" duration="18251000" />
+      <workItem from="1677258771427" duration="2877000" />
+      <workItem from="1677341705844" duration="12553000" />
     </task>
     <servers />
   </component>

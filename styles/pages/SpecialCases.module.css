@@ -1,0 +1,25 @@
+.containerSpecialCases {
+    height: calc(100vh - 76px);
+    overflow: auto;
+    padding: 30px;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.specialCases, .FormSpecialCases {
+    padding: 30px;
+    margin: 15px;
+    background: #ffffff;
+    border-radius: 21px;
+    width: 45%;
+}
+@media (max-width: 1023px) {
+    .containerSpecialCases {
+        flex-wrap: wrap;
+    }
+    .specialCases, .FormSpecialCases {
+        width: 75%;
+        margin-top: 8px;;
+    }
+}

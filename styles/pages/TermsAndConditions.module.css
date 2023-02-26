@@ -5,7 +5,9 @@
     background: #f3f3f3;
 }
 .terms {
-    margin: 22px;
+    width: 90%;
+    max-width: 1024px;
+    margin: 30px auto;
     padding: 30px;
     background: #ffffff;
     border-radius: 21px;

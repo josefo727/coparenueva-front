@@ -15,6 +15,9 @@ body {
 .showMobile {
     display: none;
 }
+.nextui-c-fyNvBR {
+    white-space: normal !important;
+}
 @media (max-width: 600px) {
     .nextui-navbar-content button {
         display: flex;

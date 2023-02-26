@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 90%;
     max-width: 540px;
-    padding: 30px;
+    margin: auto;
     background: #ffffff;
     font-family: sans-serif;
     color: #202123;
@@ -14,20 +14,31 @@
     color: #202123;
     font-weight: bold;
 }
-.gender span {
-    font: 500 14px sans-serif;
+.title {
+    margin: 0;
 }
-.registerRenovators {
+.form label {
+    color: #202123;
+    font: bold 14px sans-serif;
+}
+.evaluarCaso {
     display: flex;
     color: #ffffff;
-    background: #344693;
+    background: #2054a5;
     align-items: center;
     justify-content: center;
     padding: 12px;
     transition: 0.5s;
     cursor: pointer;
+    width: 200px;
+    border-radius: 8px;
 }
-.registerRenovators:hover {
-    background: #120639;
-    transition: 0.5s;
+.inputs>div {
+    border-radius: 6px !important;
+}
+@media (max-width: 768px) {
+    .evaluarCaso {
+        width: 90%;
+        margin: auto;
+    }
 }

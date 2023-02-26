@@ -14,7 +14,9 @@
     color: #202123;
     font-weight: bold;
 }
-.user label, .password label{
+.email label,
+.user label,
+.password label {
     border-radius: 0;
     box-shadow: 0 0 0 2px #a5a5a5
 }
@@ -27,7 +29,7 @@
 .LoginButton {
     display: flex;
     color: #ffffff;
-    background: #344693;
+    background: #2054a5;
     align-items: center;
     justify-content: center;
     padding: 12px;
@@ -35,7 +37,7 @@
     cursor: pointer;
 }
 .LoginButton:hover {
-    background: #120639;
+    background: #003a70;
     transition: 0.5s;
 }
 

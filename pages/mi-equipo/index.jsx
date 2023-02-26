@@ -11,7 +11,7 @@ export default function MyTeam() {
                 <div className={styles.containerMyTeam}>
                     <div className={styles.team}>
                         <Grid.Container gap={2} className={styles.grid}>
-                            <Grid>
+                            <Grid className={styles.contentUserImage}>
                                 <Image
                                     src="/photo.jpeg"
                                     alt="Default Image"
@@ -21,7 +21,7 @@ export default function MyTeam() {
                                 />
                                 <Text className={styles.name}>FirstName Surname</Text>
                             </Grid>
-                            <Grid>
+                            <Grid className={styles.contentUserImage}>
                                 <Image
                                     src="/photo.jpeg"
                                     alt="Default Image"
@@ -31,7 +31,7 @@ export default function MyTeam() {
                                 />
                                 <Text className={styles.name}>FirstName Surname</Text>
                             </Grid>
-                            <Grid>
+                            <Grid className={styles.contentUserImage}>
                                 <Image
                                     src="/photo.jpeg"
                                     alt="Default Image"
@@ -42,9 +42,7 @@ export default function MyTeam() {
                                 <Text className={styles.name}>FirstName Surname</Text>
                             </Grid>
                         </Grid.Container>
-                        <div>
-                            <FormRegisterRenovators/>
-                        </div>
+                        <FormRegisterRenovators/>
                     </div>
                 </div>
             </Layout>

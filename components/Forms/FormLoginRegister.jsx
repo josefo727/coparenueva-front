@@ -3,31 +3,37 @@ import { Input, Spacer, Button, useInput } from "@nextui-org/react";
 import { BsEyeFill, BsEyeSlashFill } from "react-icons/bs";
 import Link from 'next/link'
 
-export default function FormLoginRegister( {isLogin = false, name, setName, password, setPassword, email, setEmail, login, register }) {
-
-
-    const { reset } = useInput("");
+export default function FormLoginRegister( {isLogin = false, data, setInput, login, register }) {
 
     return (
         <>
             <form className={styles.form}>
                 <Spacer y={2.5} />
-                <h1>Bienvenido</h1>
+                <h1>Bienvenidos Renovadores</h1>
                 {isLogin ?
-                    <p>Por favor inicie sesión para continuar.</p>
+                    <p>Por favor inicia sesión para continuar.</p>
                 :
                     <p>Por favor complete los datos para comenzar.</p>
                 }
-                <Input className={styles.user} bordered placeholder="usuario*" />
+                <Input
+                    name='name'
+                    value={data?.name}
+                    onChange={e => setInput(e)}
+                    className={styles.user}
+                    bordered
+                    placeholder="usuario*"
+                    onChange={e => setInput(e)}
+                />
 
                 <Spacer y={1} />
                 {!isLogin ?
                     <>
                         <Input
-                            className={styles.password}
+                            name='email'
+                            value={data?.email}
+                            onChange={e => setInput(e)}
+                            className={styles.email}
                             bordered
-                            onClearClick={reset}
-                            type="email"
                             placeholder="E-mail"
                         />
                         <Spacer y={1} />
@@ -36,6 +42,9 @@ export default function FormLoginRegister( {isLogin = false, name, setName, pass
                 }
 
                 <Input.Password
+                    name='password'
+                    value={data?.password}
+                    onChange={e => setInput(e)}
                     className={styles.password}
                     bordered
                     placeholder="contraseña"

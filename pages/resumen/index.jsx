@@ -12,8 +12,8 @@ export default function Resumen() {
             <Layout
                 title='Resumen'
                 descripcion='Resumen'
-                navTitle='¡Hola, Renovador!'
-                navSubTitle='Bienvenido/a a la COPA RENUEVA. Donde ganas, renovando'
+                navTitle='¡Hola, renovador!'
+                navSubTitle='Bienvenido a la COPA RENUEVA. Más renuevo, más gano.'
                 ruta='resumen'>
                 <div className={styles.containerResumen}>
                     <section className={styles.containerBox}>
@@ -22,7 +22,7 @@ export default function Resumen() {
                                 <span className={styles.icon}>
                                     <IoBagHandle/>
                                 </span>
-                                <span>Grupo Objetivo <br/> Pólizas a renovar</span>
+                                <span>A renovar</span>
                             </div>
                             <h2 className={styles.valor }>500</h2>
                         </div>
@@ -31,7 +31,7 @@ export default function Resumen() {
                                 <span className={styles.icon}>
                                     <FaUser/>
                                 </span>
-                                <span>Renovada</span>
+                                <span>Renovados</span>
                             </div>
                             <h2 className={styles.valor}>230</h2>
                         </div>
@@ -40,7 +40,7 @@ export default function Resumen() {
                                 <span className={styles.icon}>
                                     <BsArrowCounterclockwise/>
                                 </span>
-                                <span>Canceladas</span>
+                                <span>Cancelados</span>
                             </div>
                             <h2 className={styles.valor}>60</h2>
                         </div>
@@ -51,7 +51,7 @@ export default function Resumen() {
                             <h2 className={styles.valor}>230</h2>
                         </div>
                         <div className={`${styles.box} ${styles.levelIncentive}`}>
-                            <span>Nivel de Incentive</span>
+                            <span>Nivel de incentivo</span>
                             <div>
                                 2k
                             </div>
@@ -64,7 +64,7 @@ export default function Resumen() {
                         </div>
                         <div className={`${styles.box} ${styles.closing}`}>
                             <span>Fecha de cierre</span>
-                            <h2 className={styles.dateClosing}>230</h2>
+                            <h2 className={styles.dateClosing}>8 de Octubre</h2>
                         </div>
                     </section>
                 </div>

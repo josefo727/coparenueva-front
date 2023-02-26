@@ -3,22 +3,30 @@ import FormLoginRegister from '../components/Forms/FormLoginRegister'
 import {useState} from 'react';
 
 export default function Login() {
-    const [name, setName] = useState('login');
-    const [password, setPassword] = useState('login');
+    const [data, setData] = useState({});
+
+    const setInput = e => {
+        setField(e.target.name, e.target.value);
+    }
+    const setField = (field, value) => {
+        setData({
+            ...data,
+            [field] : value
+        });
+    }
 
     const login = (e) => {
         e.preventDefault()
-        console.log(name, password);
+        console.log(data);
     }
 
     return (
         <main className={styles.mainLogin}>
             <FormLoginRegister
                 isLogin={true}
-                name={name}
-                setName={setName}
-                password={password}
-                setPassword={setPassword}
+                setInput={setInput}
+                data={data}
+                setData={setData}
                 login={login}
             />
         </main>

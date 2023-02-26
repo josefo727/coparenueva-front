@@ -49,7 +49,7 @@ export default function Sidebars({navTitle, navSubTitle, ruta, children}) {
                     <div>
                         <MenuItem
                             icon={<BsFillGrid1X2Fill />}
-                            component={<Link href={"/resumen"} />}
+                            component={<Link href="/resumen" />}
                             className={resumen}
                         >
                             <div className={styles.activeBookmark}/>
@@ -57,7 +57,7 @@ export default function Sidebars({navTitle, navSubTitle, ruta, children}) {
                         </MenuItem>
                         <MenuItem
                             icon={<BsFillFileTextFill />}
-                            component={<Link href={"/instrucciones"} />}
+                            component={<Link href="/instrucciones" />}
                             className={instructions}
                         >
                             <div className={styles.activeBookmark}/>
@@ -65,7 +65,7 @@ export default function Sidebars({navTitle, navSubTitle, ruta, children}) {
                         </MenuItem>
                         <MenuItem
                             icon={<HiUsers />}
-                            component={<Link href={"/mi-equipo"} />}
+                            component={<Link href="/mi-equipo" />}
                             className={team}
                         >
                             <div className={styles.activeBookmark}/>
@@ -74,7 +74,7 @@ export default function Sidebars({navTitle, navSubTitle, ruta, children}) {
                         <hr/>
                         <MenuItem
                             icon={<HiUsers />}
-                            component={<Link href={"/casos-especiales"} />}
+                            component={<Link href="/casos-especiales" />}
                             className={specials}
                         >
                             <div className={styles.activeBookmark}/>
@@ -82,7 +82,7 @@ export default function Sidebars({navTitle, navSubTitle, ruta, children}) {
                         </MenuItem>
                         <MenuItem
                             icon={<HiUsers />}
-                            component={<Link href={"/terminos-y-condiciones"} />}
+                            component={<Link href="/terminos-y-condiciones" />}
                             className={terms}
                         >
                             <div className={styles.activeBookmark}/>
